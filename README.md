@@ -34,3 +34,6 @@ https://drive.google.com/drive/folders/1xr8dBjpwd2bo6ZqFmwoKvBBDUoqaK0Bg?usp=sha
 **_Fan_Bremsstrahlung_Scan_**: Creates a simulated polychromatic fan beam projection sinogram from the inscribed circular region of a 2D "tagged" 32-bit image with equal width and height using user defined projection geometry. A polychromatic x-ray source is simulated by combining projections taken at equally spaced energy steps within a user-specified range. At each step, the "tagged" pixel values are integers corresponding to a user supplied list of component compositions and densities. See the Materials.txt and Materials.csv files for examples. 
 
 _These plugins are intended for use in testing reconstruction software and for evaluating methods for the correction of beam-hardening and other imaging artifacts when using measured/corrected x-ray linear attenuation coefficients for quantitative compositional analysis._
+
+**Why write plugins this way?**
+The data and methods supplied by MuMassCalculator are well defined.  In my opinion it makes a lot of sense to "encapsulate" them in a java library independent of ImageJ.  The plugins in this repo provide the user interface to the library.  The library is easily portable, the plugins are not.  my $.02 LZIZ
