@@ -8,7 +8,9 @@ See https://github.com/LazzyIzzi/MuMassCalculator for additional information
 **Installation**
 
 Download MuMassCalculator_J8Lib.jar to the ImageJ plugins/jars folder
+
 Download Tomography_Tools.jar to the ImageJ plugins folder
+
 Start ImageJ to install the plugins.
 
 **Use**
