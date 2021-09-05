@@ -1,0 +1,7 @@
+Tag,Name,Formula,Density
+1,Quartz,Si:1:O:2,2.5
+2,Calcite,Ca:1:C:1:O:3,2.71
+3,PotassiumChloride,K:1:CL:1,2.2
+4,SodiumChloride,Na:1:CL:1,2.31
+5,Dolomite,Mg:.5:Ca:.5:C:1:O:3,2.81
+
