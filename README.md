@@ -13,11 +13,17 @@ Download Tomography_Tools.jar to the ImageJ plugins folder
 
 Start ImageJ to install the plugins.
 
+A MuMassCalculator jar file, JavaDocs and sample ImageJ PlugIns are also available at
+
+https://drive.google.com/drive/folders/1xr8dBjpwd2bo6ZqFmwoKvBBDUoqaK0Bg?usp=sharing
+
 **Use**
 
 **_Xray_Calculator_**: Does not operate on images. It fetches and displays x-ray absorption spectra and absorption edge data from the MuMassCalculator XCOM data base.  It is intended to provide guidance for other imaging operations.
 
-**_Beam_Hardening_Estimator_**: Interactively plots the bremsstrahlung x-ray intensity spectra for a simplified model x-ray CT scanner, i.e the change in the intensity distribution along the source->filter->sample->detector path. A simplified "ideal" detector counts only photons absorbed by a scintillator layer.  Real detectors are beyond the scope of this tool.
+**_Beam_Hardening_Estimator_**: Interactively plots the bremsstrahlung x-ray intensity spectra for a simplified model x-ray CT scanner, i.e the change in the intensity distribution along the source->filter->sample->detector path. A simplified "ideal" detector counts only photons absorbed by a scintillator layer.  Real detectors are beyond the scope of this tool. Estimates of the photon efficiency and degree of beam-hardening are logged for each scanner configuration.
+
+**Note:** All projectors described below use a simulated linear detector array, Curved detector arrays are not supported.
 
 **_Parallel_MuLin_Scan_**: Creates a parallel projection sinogram from the inscribed circular region of a 2D 32-bit image with equal width and height.  The image pixel values are typically the linear attenuation coefficients of the imaged materials.
 
